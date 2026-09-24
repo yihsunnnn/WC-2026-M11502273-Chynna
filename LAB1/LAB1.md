@@ -4,7 +4,11 @@
 **Student ID:** M11502273  
 
 
-## Checkpoint 1: Wireshark Setup - 10 points
+## Checkpoint 1: Wireshark Setup 
+
+<img width="772" height="616" alt="ch1_open_capture" src="https://github.com/user-attachments/assets/cea436a4-7677-4f6c-8175-626cafa75a76" />
+<img width="1207" height="777" alt="open" src="https://github.com/user-attachments/assets/e0efe0d7-b81e-4091-949d-48058374ab64" />
+<img width="1211" height="775" alt="ck1_nr-rrc" src="https://github.com/user-attachments/assets/3a901292-9004-416c-88bf-74205cf9bed9" />
 
 
 ### Answer / Evidence
@@ -42,14 +46,19 @@ The `OAI-5G` profile is active, `oai-5g-combined.pcapng` is open, and the `nr-rr
 | `RRCSetup` | gNB -> UE | DL-CCCH / SRB0 | Provides initial RRC configuration | `105` |
 | `RRCSetupComplete` | UE -> gNB | DCCH / SRB1 | Confirms setup and carries initial NAS | `106` |
 
+
+<img width="1172" height="592" alt="ch3 1_nr-rrc rrcSetupRequest_elementnr" src="https://github.com/user-attachments/assets/20858d85-34be-4796-8572-32badc57b681" />
+<img width="1175" height="731" alt="ch3 2_ nr-rrc rrcSetup_element" src="https://github.com/user-attachments/assets/22059b5a-cf6b-42b8-aa99-50d7fe8d4184" />
+
+
 ### Answers
 
-1. Establishment cause: `TBD` (not visible in the supplied `RRCSetupRequest` screenshot).
+1. Establishment cause: TBD
 2. `RRCSetupRequest` uses SRB0 because the UE has no dedicated signaling bearer yet.
 3. `RRCSetup` is sent by the gNB to the UE.
 4. Dedicated signaling after setup uses SRB1.
 5. `RRCSetupComplete` carries the NAS `Registration Request`.
-6. RRC establishment does not mean that the UE is already registered with the 5G Core.
+6. RRC connection is the radio connection between the UE and gNB, while 5G Registration is the procedure between the UE and the 5G Core, mainly the AMF. RRC connection only establishes the radio signaling path. After that, the UE still needs to complete NAS procedures such as authentication, security setup, Registration Accept, and Registration Complete before it is fully registered to the 5G Core.
 
 ### Evidence
 
@@ -63,8 +72,6 @@ The supplied `nr-rrc` screenshot identifies packet 104 as `RRCSetupRequest` and 
 |---|---|---|---|---:|
 | Radio side | `RRCSetupComplete` | UE -> gNB | NAS `Registration Request` | `106` |
 | Core side | `NGAP InitialUEMessage` | gNB -> AMF | NAS request in `NAS-PDU` | `110` |
-| Registration response | `Registration Accept` | AMF -> UE through gNB | Successful registration | `TBD` |
-| Registration completion | `Registration Complete` | UE -> AMF through gNB | Confirms registration | `TBD` |
 
 ### Answers
 
@@ -72,6 +79,8 @@ The supplied `nr-rrc` screenshot identifies packet 104 as `RRCSetupRequest` and 
 2. RRC controls the UE-radio connection; NAS handles mobility and session management with the 5G Core.
 3. The message is logically UE-to-AMF, but travels UE -> gNB in RRC and gNB -> AMF in NGAP.
 4. `Registration Complete` confirms successful registration after `Registration Accept`.
+<img width="1187" height="777" alt="ch4_ngap pdu" src="https://github.com/user-attachments/assets/c862709f-88c2-45b3-a3e8-774daad2bdcd" />
+<img width="1192" height="417" alt="ch4 2 ngap InitialUEMessage" src="https://github.com/user-attachments/assets/c93e7ba0-cf4f-4322-840e-2a7e1319b08e" />
 
 
 ## Checkpoint 5: UE IP and User Plane - 15 points
@@ -81,7 +90,6 @@ The supplied `nr-rrc` screenshot identifies packet 104 as `RRCSetupRequest` and 
 | Field | Observed value |
 |---|---|
 | UE IPv4 address | `10.0.0.2` |
-| PDU Session Establishment Accept packet | `TBD` |
 
 ### ICMP and GTP-U evidence
 
@@ -97,6 +105,10 @@ The supplied `nr-rrc` screenshot identifies packet 104 as `RRCSetupRequest` and 
 1. UE IPv4 address: `10.0.0.2`
 2. Number of ICMP Echo Request/Reply pairs: 10 pairs are visible in the supplied `gtp || icmp` screenshot.
 3. A successful Echo Reply proves that the PDU session was established and user-plane traffic crossed the gNB-UPF GTP-U path.
+
+<img width="1176" height="735" alt="ch5 1_gtp frame490" src="https://github.com/user-attachments/assets/eba91597-928f-4cae-b219-1e6f49050553" />
+<img width="1177" height="752" alt="ch5 2_gtp frame495" src="https://github.com/user-attachments/assets/84398dbe-1c7b-4b71-bdee-85e1b0d3908e" />
+<img width="1172" height="791" alt="ch5_8-2 echo" src="https://github.com/user-attachments/assets/eb31033b-4e32-4913-8475-84a6f7f9c59f" />
 
 ### Evidence
 
@@ -133,12 +145,3 @@ sequenceDiagram
 ### Evidence
 
 The provided screenshots show the RRC sequence, NGAP/NAS registration sequence, and GTP-U ICMP user-plane exchange required by the final sequence.
-
-## Submission Checklist
-
-- [x] Checkpoint 1 screenshot evidence
-- [x] Checkpoint 2 completed IP and architecture tables
-- [x] Checkpoint 3 packet numbers and RRC evidence
-- [x] Checkpoint 4 RRC/NAS/NGAP mapping evidence
-- [x] Checkpoint 5 UE IP and GTP-U/ICMP evidence
-- [x] Checkpoint 6 final sequence diagram
