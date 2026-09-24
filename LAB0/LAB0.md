@@ -62,8 +62,7 @@ Layer 5 (Application Layer): `____Domain Name System______`
 #### 3.1 Which HTTP page did you access?
 
 
-- HTTP page: `____(http://www.gzxyzn.com/Article/bjrk2/1644.html)_____`
-
+- HTTP page: (http://www.gzxyzn.com/Article/bjrk2/1644.html)
 #### 3.2 What are the IP address and port number of the server hosting this page?
 <img width="1106" height="722" alt="4 1~4 2" src="https://github.com/user-attachments/assets/593cbdfe-a043-4a7c-911f-bb17d02f58d5" />
 
