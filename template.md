@@ -4,7 +4,7 @@
 ## :notebook_with_decorative_cover: Personal Information
 - Name:陳以薰(CHEN,YI HSUN)
 - number:M11502273
-- Research Direction: integrated Temperature Prediction
+- Research Direction: Temperature Prediction
 - Briefly summarize your background and why you want to take this course:
 I hope to learn the fundamental concepts of wireless communication and gain knowledge that can support my future thesis research.
 ## :notebook_with_decorative_cover: Assignment
