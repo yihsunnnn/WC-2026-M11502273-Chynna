@@ -15,7 +15,7 @@ I hope to learn the fundamental concepts of wireless communication and gain know
     - **Deadline : 12:00, Sep. 28**
     - Goal:
 In this lab, you will use Wireshark to analyze how a UE establishes an RRC connection with an OAI gNB and then registers with the 5G Core.
-    - delivery: **put your file link here**.
+    - delivery: [**lab1**](https://github.com/yihsunnnn/WC-2026-M11502273-Chynna/blob/main/LAB1/LAB1.md).
     -  [ ] Peer review : [Vote the Top3](https://docs.google.com/forms/d/e/1FAIpQLSeY8uVnBUwJ6l6CwQ6arx3JHthTJupHBeA2WwyD-EUIYqHHrg/viewform?usp=publish-editor) (DL: 23:59, Sep. 30)
       
 
