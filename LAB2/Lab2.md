@@ -1,5 +1,19 @@
 # Lab2
 
+## Table of Contents
+
+- [Task 1 — Confirm the Traffic Direction](#task-1--confirm-the-traffic-direction)
+- [Task 2 — Compare Throughput](#task-2--compare-throughput)
+- [Task 3 — Check the Trade-off](#task-3--check-the-trade-off)
+- [Task 4.3 — Record the TDD Parameters](#task-43--record-the-tdd-parameters)
+- [Task 4.4 — Draw the TDD Time Allocation](#task-44--draw-the-tdd-time-allocation)
+- [Task 4.5 — Connect SIB1 to the Performance Results](#task-45--connect-sib1-to-the-performance-results)
+- [Task 5 — Is the TDD Setting Suitable?](#task-5--is-the-tdd-setting-suitable)
+- [Task 6 — Find GTP-U Information](#task-6--find-gtp-u-information)
+- [Task 7 — TCP Retransmissions](#task-7--tcp-retransmissions)
+- [Task 8 — RTT and Packet Interval](#task-8--rtt-and-packet-interval)
+- [11. Final Questions](#11-final-questions)
+
 ## Task 1 — Confirm the Traffic Direction
 
 | Scenario | Reverse Value | Direction |
