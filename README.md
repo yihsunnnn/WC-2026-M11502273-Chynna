@@ -20,9 +20,8 @@ In this lab, you will use Wireshark to analyze how a UE establishes an RRC conne
       
 
 - **LAB2 : gNB TDD Traffic Analysis
-    -  Assignment Information: [Lab2]([https://hackmd.io/@Z4OmT2gcTXeLxBPXrn-2SQ/BJkbO0juze](https://github.com/yihsunnnn/WC-2026-M11502273-Chynna/blob/5d9804ef559bcebcac036cc84fb5a5df7d3b0388/LAB2/Lab2.md))
-    -  
+    -  Assignment Information: [Lab2](https://github.com/yihsunnnn/WC-2026-M11502273-Chynna/blob/5d9804ef559bcebcac036cc84fb5a5df7d3b0388/LAB2/Lab2.md)
     - Goal:
 In this lab,you will compare three 5-second UDP iperf3 tests. You will learn how TDD slot allocation can affect downlink and uplink performance.
-    - - delivery: **put your file link here**.
+    - - delivery: [Lab2](https://github.com/yihsunnnn/WC-2026-M11502273-Chynna/blob/5d9804ef559bcebcac036cc84fb5a5df7d3b0388/LAB2/Lab2.md)
     -  [ ] Peer review : [Vote the Top3](https://docs.google.com/forms/d/e/1FAIpQLScz-Kt_9ArkXOl8sG99549xqGK7W7vAqoY4lbbc3ph03zvFaw/viewform?usp=publish-editor) 
