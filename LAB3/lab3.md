@@ -1,4 +1,16 @@
 ## LAB3 Deploying a 5G Standalone Network Using OpenAirInterface
+
+## Index
+
+- [Task 1 — 5G SA Connection Verification](#task-1)
+- [Task 2 — RFsimulator Communication](#task-2)
+- [Task 3 — End-to-End Connectivity](#task-3)
+- [Task 4 — Packet Size Comparison](#task-4)
+- [Task 5 — Controlled UE Registration Failure](#task-5)
+- [Task 6 — RFsimulator vs. Physical 5G](#task-6)
+- [Final Analysis](#final-analysis)
+
+
 ### Task 1 — 5G SA Connection Verification
 
 | Stage | Successful? | Evidence from logs |
