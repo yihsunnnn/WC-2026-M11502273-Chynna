@@ -25,3 +25,10 @@ In this lab, you will use Wireshark to analyze how a UE establishes an RRC conne
 In this lab,you will compare three 5-second UDP iperf3 tests. You will learn how TDD slot allocation can affect downlink and uplink performance.
     - - delivery: [Lab2](https://github.com/yihsunnnn/WC-2026-M11502273-Chynna/blob/5d9804ef559bcebcac036cc84fb5a5df7d3b0388/LAB2/Lab2.md)
     -  [ ] Peer review : [Vote the Top3](https://docs.google.com/forms/d/e/1FAIpQLScz-Kt_9ArkXOl8sG99549xqGK7W7vAqoY4lbbc3ph03zvFaw/viewform?usp=publish-editor) 
+
+- **LAB3 : Deploying a 5G Standalone Network Using OpenAirInterface
+    -  Assignment Information: [Lab3](https://hackmd.io/_13mS4lLSY-pVwvtiHfPMw)
+    - Goal:
+    The network is deployed using OpenAirInterface (OAI).
+    -  delivery: [Lab3](https://github.com/yihsunnnn/WC-2026-M11502273-Chynna/blob/fdd842dd171b2ad3e27c089a3eef2e09c63371ea/LAB3/lab3.md)
+    -  [ ] Peer review : [Vote the Top3](https://docs.google.com/forms/d/e/1FAIpQLScz-Kt_9ArkXOl8sG99549xqGK7W7vAqoY4lbbc3ph03zvFaw/viewform?usp=publish-editor) 
