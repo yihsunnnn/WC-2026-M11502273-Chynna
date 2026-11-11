@@ -1,4 +1,4 @@
-
+## LAB3 Deploying a 5G Standalone Network Using OpenAirInterface
 ### Task 1 — 5G SA Connection Verification
 
 | Stage | Successful? | Evidence from logs |
