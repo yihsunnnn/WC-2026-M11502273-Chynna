@@ -1,4 +1,4 @@
-<img width="952" height="637" alt="task4_f1_setup" src="https://github.com/user-attachments/assets/b91340f7-33d5-4b91-91f7-449977b60609" /># LAB 4
+# LAB 4
 ## Table of Contents
 
 - [Task 1 — Inspect the Split Configurations](#task-1)
