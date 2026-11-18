@@ -34,7 +34,7 @@ In this lab,you will compare three 5-second UDP iperf3 tests. You will learn how
     -  [ ] Peer review : [Vote the Top3](https://docs.google.com/forms/d/e/1FAIpQLScz-Kt_9ArkXOl8sG99549xqGK7W7vAqoY4lbbc3ph03zvFaw/viewform?usp=publish-editor)
 
 - **LAB4 : O-RAN Advanced
-    -  Assignment Information: [Lab3](https://hackmd.io/_13mS4lLSY-pVwvtiHfPMw)
+    -  Assignment Information: [Lab4]([https://hackmd.io/_13mS4lLSY-pVwvtiHfPMw](https://hackmd.io/uMmEMQrUSvay4aWaGphB7g)
     - Goal:
      - The network is deployed using OpenAirInterface (OAI) with an F1-split gNB architecture, where the gNB is separated into a Central Unit (CU) and a Distributed Unit (DU).
      - Students will observe and analyze the communication between different network components, including CU, DU, 5G Core and UEs. The lab also introduces important protocols such as F1AP, NGAP, GTP, RLC, and E2AP.
