@@ -16,7 +16,7 @@
 | PCI | 0 |
 
 **Screenshot:**
-
+<img width="833" height="161" alt="Task1" src="https://github.com/user-attachments/assets/fb634c75-fc5a-4163-ab7a-0ebc2eb75ecd" />
 
 **Explanation:**
 
@@ -39,6 +39,8 @@ gNB, decode system information, and prepare for Random Access.
 
 **MIB Screenshot:**
 
+<img width="897" height="476" alt="t1-2" src="https://github.com/user-attachments/assets/dfc25982-e0de-436d-a91f-95582a325d73" />
+
 
 **Explanation:**
 
@@ -47,6 +49,7 @@ locate and decode SIB1.
 
 **SIB1 Screenshot:**
 
+<img width="910" height="487" alt="t1-1" src="https://github.com/user-attachments/assets/e11c0073-7a99-4219-91ef-eecb70a645a1" />
 
 **Explanation:**
 
@@ -68,6 +71,8 @@ the Random Access procedure.
 | RAPID | 16 |
 
 **UE Log Screenshot:**
+<img width="828" height="243" alt="螢幕擷取畫面 2026-11-25 084018" src="https://github.com/user-attachments/assets/0c487949-3b33-45b1-9db6-5f81fdb46ff7" />
+
 
 
 **Explanation:**
@@ -76,6 +81,7 @@ The UE transmits the PRACH preamble at frame.slot
 553.19 with preambleIndex 16.
 
 **Wireshark Screenshot:**
+<img width="1001" height="560" alt="t1-3" src="https://github.com/user-attachments/assets/2e4aec28-0b42-4982-b22d-b01b525fc5ba" />
 
 
 **Explanation:**
@@ -110,6 +116,7 @@ Frame 489 shows a RACH preamble event with RAPID 16.
 | RA-RNTI | 271 |
 
 **Screenshot:**
+<img width="1067" height="672" alt="螢幕擷取畫面 2026-11-25 084547" src="https://github.com/user-attachments/assets/e62e018b-a3a7-4d67-a9d2-eed0cd472398" />
 
 
 **Explanation:**
@@ -133,6 +140,7 @@ provides an uplink grant for the UE to transmit Msg3.
 | Context RNTI | 0xf21e (61982) |
 
 **Screenshot:**
+<img width="1067" height="821" alt="t2-1" src="https://github.com/user-attachments/assets/0ef9756e-48c4-4c58-9d93-d275e1cea8ea" />
 
 
 **Explanation:**
@@ -167,6 +175,7 @@ sent from the UE to the gNB.
 | Contention Resolution | Yes |
 
 **Screenshot:**
+<img width="1077" height="865" alt="t2-2" src="https://github.com/user-attachments/assets/dc5e99ec-9cfc-4f4f-bb5f-87ba577cafe1" />
 
 
 **Explanation:**
@@ -196,6 +205,7 @@ and Contention Resolution is present.
 | rrc-TransactionIdentifier | 1 |
 
 **Screenshot:**
+<img width="1067" height="955" alt="t2-3" src="https://github.com/user-attachments/assets/18997b08-1c83-4442-8762-b92b309fe0e9" />
 
 
 **Explanation:**
@@ -231,7 +241,8 @@ identifier is 1.
 | State = NR_RRC_CONNECTED | 90 |
 | Generating RRCSetupComplete | 93 |
 
-**Screenshot:**
+**ScreenShot**
+<img width="845" height="276" alt="螢幕擷取畫面 2026-11-25 085454" src="https://github.com/user-attachments/assets/d12e7617-810c-436c-98aa-104a5f3ff873" />
 
 
 **Explanation:**
